@@ -1,0 +1,30 @@
+[package]
+name = "shader-playground"
+version = "0.1.0"
+edition = "2021"
+authors = ["Roy <varonroy@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/varonroy/shader-playground"
+
+[dependencies]
+# errors
+anyhow = "1.0.86"
+thiserror = "1.0.61"
+
+# window + gl context
+glutin = "0.32.0"
+winit = "0.30.2"
+glutin-winit = "0.5.0"
+
+# logging
+log = "0.4.21"
+simplelog = "0.12.2"
+
+# file watcher
+# notify = "6.1.1"
+notify-debouncer-mini = "0.4.1"
+clap = { version = "4.5.7", features = ["derive"] }
+
+[build-dependencies]
+# window + gl context
+gl_generator = "0.14.0"

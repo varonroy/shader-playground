@@ -1,0 +1,13 @@
+target
+
+.vscode
+.idea
+.nvim
+
+.sync-exclude
+.sync-exclude.lst
+
+*.env
+*.env.*
+
+tmp.glsl
